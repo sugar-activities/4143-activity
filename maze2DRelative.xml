@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GCompris>
+  <Board
+	 name="maze2DRelative"
+	 type="maze"
+	 section="/discovery/mazeMenu"
+	 mode="2DR"
+	 icon="maze.svg"
+	 difficulty="3"
+	 author="Bastiaan Verhoef (b.f.verhoef@student.utwente.nl)"
+	 boarddir="maze">
+	 <title>Maze</title>
+	 <description>Find your way out of the maze (Move is relative)</description>
+	<prerequisite>Can use the keyboard arrow to move an object.</prerequisite>
+	<goal>Help Tux get out of this maze.</goal>
+	<manual>Use the keyboard arrows to move Tux up to the door. In this maze, the move is relative (first person). Use the up arrow to go forward. The other arrow let you turn Tux in another direction.</manual>
+  </Board>
+</GCompris>
